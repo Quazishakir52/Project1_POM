@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-14T17:04:41 BDT" name="Suite" finished-at="2021-12-14T17:05:55 BDT" duration-ms="74729">
+    <groups>
+    </groups>
+    <test started-at="2021-12-14T17:04:41 BDT" name="Test" finished-at="2021-12-14T17:05:55 BDT" duration-ms="74729">
+      <class name="testcases.TestCase2">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.TestCase2@2d1ef81a]" started-at="2021-12-14T17:04:40 BDT" name="beforeSuite" finished-at="2021-12-14T17:04:41 BDT" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testcases.TestCase2@2d1ef81a]" started-at="2021-12-14T17:04:41 BDT" name="beforeTest" finished-at="2021-12-14T17:04:41 BDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="setData()[pri:0, instance:testcases.TestCase2@2d1ef81a]" started-at="2021-12-14T17:04:41 BDT" name="setData" finished-at="2021-12-14T17:04:41 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testcases.TestCase2@2d1ef81a]" started-at="2021-12-14T17:04:42 BDT" name="beforeMethod" finished-at="2021-12-14T17:04:55 BDT" duration-ms="12811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Testcase2(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestCase2@2d1ef81a]" started-at="2021-12-14T17:04:55 BDT" name="Testcase2" data-provider="fetchData" finished-at="2021-12-14T17:05:55 BDT" duration-ms="60338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[(//div[@id='layer_cart']//h2)[1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//td[@class='cart_description']]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Product successfully added to your shopping cart]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TestCase2@2d1ef81a]" started-at="2021-12-14T17:05:55 BDT" name="afterMethod" finished-at="2021-12-14T17:05:55 BDT" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.TestCase2@2d1ef81a]" started-at="2021-12-14T17:05:55 BDT" name="afterTest" finished-at="2021-12-14T17:05:55 BDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.TestCase2@2d1ef81a]" started-at="2021-12-14T17:05:56 BDT" name="afterSuite" finished-at="2021-12-14T17:05:56 BDT" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TestCase2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
